@@ -119,14 +119,14 @@
 
   /* Footer Styling */
 .footer {
-    position: fixed; /* Sticks the footer to the bottom */
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    background: none; /* Removes the background */
-    box-shadow: none; /* Removes any shadows */
+    background: none; /* No background */
+    box-shadow: none;
     font-family: Arial, sans-serif;
 }
 
@@ -136,12 +136,13 @@
     color: #000; /* Text color */
 }
 
+/* Social Icons Styling */
 .footer-content .icon {
-    width: 30px; /* Adjust icon size */
-    height: 30px;
-    margin: 0 5px;
-    vertical-align: middle;
-    transition: transform 0.3s ease;
+    width: 30px; /* Set fixed width */
+    height: 30px; /* Set fixed height */
+    margin: 0 5px; /* Spacing between icons */
+    vertical-align: middle; /* Align icons with text */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
 }
 
 .footer-content .icon:hover {
