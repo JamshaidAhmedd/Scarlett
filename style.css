@@ -115,3 +115,35 @@
       max-height: 3em; /* changed */
     }
   }
+
+
+  /* Footer Styling */
+.footer {
+    position: fixed; /* Sticks the footer to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: none; /* Removes the background */
+    box-shadow: none; /* Removes any shadows */
+    font-family: Arial, sans-serif;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #000; /* Text color */
+}
+
+.footer-content .icon {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.footer-content .icon:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
